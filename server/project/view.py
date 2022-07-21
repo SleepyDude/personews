@@ -2,6 +2,6 @@ from app import app
 from flask import jsonify
 
 
-@app.route('/api/index')
+@app.route('/api/ping')
 def api_index():
-    return jsonify({'data': 'Hello World'})
+    return jsonify({'data': 'different ping from flask'})

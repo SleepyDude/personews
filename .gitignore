@@ -1,3 +1,5 @@
 server/env
 server/project/__pycache__
 server/tests/__pycache__
+
+.DS_Store
